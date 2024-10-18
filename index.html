@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+
+    <div id="text">
+        <p id="new">Text wait Update</p>
+
+        <input type="button" value="Update" onClick="update();">
+
+
+        <br>
+
+        <input class="in" type="button" id="button" value="Button">
+
+
+        <br>
+
+
+        <button class="btn1" id="btn1">Arxa plani qirmizi et</button>
+        <button class="btn2" id="btn2">Yaziyi ag et </button>
+        <div id="qutu">
+            Merhaba US
+        </div>
+
+
+
+        <div id="id1">id1</div>
+        <div id="id2">id2</div>
+        <div id="id3">id3</div>
+        <div id="id4">id4</div>
+        <div id="id5">id5</div>
+        <div id="id6">id6</div>
+
+
+
+
+
+
+
+        <button class="btn" onclick="myFunction()">Click Me</button>
+
+        <div id="myDIV">
+            This is my favorite code.
+        </div>
+
+
+
+
+        <div class="div" id="colorMsg"
+            style="font-size:50px; text-align:center; margin-bottom:200px;width:150px;height:100px;padding:5px;">I LOVE
+            GEORGE BROWN <span>Oneclick Button</span><span>change Color</span></div>
+
+
+
+
+        <select class="sel" id="colorPicker" onchange="JavaScript:changeColor()">
+            <option value="transparent">None</option>
+            <option value="yellow">Yellow</option>
+            <option value="salmon">Salmon</option>
+            <option value="lightblue">Light Blue</option>
+            <option value="limegreen">Lime Green</option>
+            <option value="cyan">Cyan</option>
+            <option value="violet">Violet</option>
+            <option value="red">Red</option>
+        </select>
+        <div id="colorMsg"></div>
+
+        <h2 class="h2">Choose Font Color</h2>
+
+
+
+        <nav class="nav" id="frame-link">
+            <a href="index.html" name="home" onmouseover="MouseOver(this);" onmouseout="MouseOut(this);">Home</a>
+        </nav>
+
+
+
+
+
+        <form class="form" id="myForm">
+            <input type="text" id="nameInput" placeholder="Adınızı daxil edin" required>
+            <button type="submit">Təsdiq et</button>
+        </form>
+
+
+
+        
+
+
+        <h2>Bölmə</h2>
+        <button id="toggleSectionButton">Genişlət/Yığ</button>
+        <div id="collapsibleSection">
+          <p>Bu bölmə genişlənir və yığılır!</p>
+        </div>
+        
+        <script>
+          document.getElementById('toggleSectionButton').addEventListener('click', function() {
+            let section = document.getElementById('collapsibleSection');
+            if (section.style.display === 'none' || section.style.display === '') {
+              section.style.display = 'block';
+            } else {
+              section.style.display = 'none';
+            }
+          });
+        </script>
+        
+
+  
+
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>
